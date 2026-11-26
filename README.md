@@ -24,6 +24,10 @@ npm start
 
 The test command also builds the client. After source edits, rebuild and start with `npm run dev`.
 
+## Deploy to Vercel
+
+Run `npx vercel` from the project directory and follow the prompts to link a Vercel project. Set `OPENAI_API_KEY` in the Vercel project's environment variables to enable live assistant responses; the built-in guide works without it.
+
 ## Assistant configuration
 
 The complete demo works without credentials. Set OPENAI_API_KEY in the shell or a local Compose .env file to enable live generation. OPENAI_MODEL optionally selects a different Responses API model. Never include credentials in your submission. Without a key or during a provider failure, the UI labels the deterministic built-in guide. Live air forecasts require outbound access to Open-Meteo. The smog simulation is available offline after the app loads.
