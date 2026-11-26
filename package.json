@@ -1,0 +1,1 @@
+{"private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node build.mjs && node --test","dev":"node build.mjs && node server.mjs","start":"node server.mjs"},"dependencies":{"react":"19.1.1","react-dom":"19.1.1"},"devDependencies":{"esbuild":"0.25.12"},"name":"saans","version":"1.0.0","engines":{"node":">=22"}}
